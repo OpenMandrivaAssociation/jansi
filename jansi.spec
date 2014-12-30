@@ -1,8 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:             jansi
 Version:          1.11
-Release:          3.1%{?dist}
+Release:          6.1
 Summary:          Jansi is a java library for generating and interpreting ANSI escape sequences
+Group:		  Development/Java
 License:          ASL 2.0
 URL:              http://jansi.fusesource.org/
 
@@ -22,9 +23,9 @@ BuildRequires:    maven-surefire-plugin
 BuildRequires:    jansi-native
 BuildRequires:    maven-clean-plugin
 BuildRequires:    maven-plugin-bundle
-BuildRequires:    junit4
+BuildRequires:    junit
 BuildRequires:    fusesource-pom
-BuildRequires:    maven-surefire-provider-junit4
+BuildRequires:    maven-surefire-provider-junit
 
 %description
 Jansi is a small java library that allows you to use ANSI escape sequences
