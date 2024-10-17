@@ -5,7 +5,7 @@ Release:          6.3
 Summary:          Jansi is a java library for generating and interpreting ANSI escape sequences
 Group:		  Development/Java
 License:          ASL 2.0
-URL:              http://jansi.fusesource.org/
+URL:              https://jansi.fusesource.org/
 
 # git clone git://github.com/fusesource/jansi.git
 # cd jansi && git archive --format=tar --prefix=jansi-1.11/ jansi-project-1.11 | xz > jansi-1.11.tar.xz
